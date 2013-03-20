@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="pressed">#3333b5e5</color>
+	<color name="pressed">#3333b5e5</color>
     <color name="selection">#ff33b5e5</color>
     <color name="today_highlight_color">#0033b5e5</color>
     <color name="background_color">#ff000000</color>
-    <color name="event_background">#ff33b5e5</color>
+	<color name="event_background">#ff33b5e5</color>
     <color name="panel_text_foreground">#ffcccccc</color>
     <color name="calendar_event_text_color">#ff888888</color>
     <color name="calendar_owner_text_color">#ff999999</color>
@@ -79,7 +79,7 @@
     <color name="alert_event_title">#ffcccccc</color>
     <color name="alert_event_other">#ff999999</color>
     <color name="alert_past_event">#8f999999</color>
-    <color name="appwidget_row_in_progress">#6633b5e5</color>
+	<color name="appwidget_row_in_progress">#6633b5e5</color>
     <color name="appwidget_date">#ff33b5e5</color>
     <color name="appwidget_week">#ee33b5e5</color>
     <color name="appwidget_month">#ff33b5e5</color>

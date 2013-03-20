@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="EditEvent_Layout" parent="@android:style/Theme.Holo" />
+	<style name="TextAppearance" parent="@*android:style/TextAppearance.Inverse" />
+	<style name="TextAppearance.EditEvent_Spinner" parent="@*android:style/Widget.Holo.Spinner">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ffcccccc</item>
+        <item name="android:layout_marginLeft">12.0dip</item>
+        <item name="android:layout_marginRight">12.0dip</item>
+    </style>
+	<style name="TextAppearance.EditEvent" parent="@style/TextAppearance">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ffcccccc</item>
+    </style>
+	<style name="TextAppearance.EditEvent_homeTime" parent="@style/TextAppearance">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ff888888</item>
+        <item name="android:paddingRight">2.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+	<style name="EditEvent_Layout" parent="@android:style/Theme.Holo" />
     <style name="CalendarTheme" parent="@android:style/Theme.Holo">
         <item name="android:windowContentOverlay">@null</item>
     </style>
@@ -14,5 +33,12 @@
     </style>
 	<style name="CalendarActionBarStyle" parent="@android:style/Widget.Holo.ActionBar.Solid">
         <item name="android:displayOptions">showCustom</item>
+    </style>
+	<style name="EditEventCustomActionButton" parent="@*android:style/Widget.Holo.ActionButton">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
     </style>
 </resources>
